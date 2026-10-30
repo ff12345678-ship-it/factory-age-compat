@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "factoryage.compat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PatternEncodingTermMenuMixin",
+    "SimulationRecipeResolverMixin",
+    "SimpleJsonResourceReloadListenerMixin",
+    "EntitySpeedTickerFluxMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
